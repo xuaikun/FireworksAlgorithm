@@ -695,7 +695,7 @@ if __name__ == '__main__':
         # Tour_L = [44, 24, 25, 18, 19, 31, 42, 43, 37, 32, 26, 20, 13, 12,  6,  5,  4, 11, 17,  9,  3, 10,  2,  1,  0, 7,  8, 14, 15, 22, 21, 27, 28, 34, 33, 38, 39, 35, 40, 41, 36, 30, 29, 23, 16, 44]
         # print("len(Tour_L) =", len(Tour_L))
         # 利用烟花算法构建移动小车的最佳行驶路径
-        if txtSaveFlag == 0:
+        if txtSaveFlag == 1:
             print("len(AnchorCoordinate[0]) =", len(AnchorCoordinate[0]))
             Tour_L, PEvalue, bestfitness = FW_main((len(AnchorCoordinate[0]) - 1), ID_i)
 
