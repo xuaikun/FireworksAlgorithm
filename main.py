@@ -562,7 +562,7 @@ if __name__ == '__main__':
     PoltInit(GridNode, CellLabel, AnchorList, AnchorCoordinate, NodeCoordinatesX, NodeCoordinatesY)
     # 节点的耗电率
     # 导入文件
-    dataFileSense = 'data_sense.mat'
+    dataFileSense = 'data_sense_update.mat'
     Sensedata = scio.loadmat(dataFileSense)
     # print("Sensedata =", Sensedata['data_sense'])
     data_sense = Sensedata['data_sense']
